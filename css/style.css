@@ -1,0 +1,109 @@
+@font-face{
+    font-family: transforma;
+    src: url(../font/TransformaScript_Trial-SemiBold.ttf);
+}  
+body{
+    background: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    background: url(../image/cf31132.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+    width: 15%;
+    aspect-ratio: 2/1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: calc(0.5em + 1vw);
+    color: #DCDCDC;
+    flex-grow: 1;
+}
+.nav-item{
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.nav-item:hover{
+    text-shadow: 0px 0px 10px #23f98e, 0px 0px 20px #23f98e, 0px 0px 30px #23f98e;
+}
+.bg-line{
+    background: url(../image/kot_2595.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/1;
+    margin: 25px 0;  
+    font-family: transforma;
+}
+.head{
+    font-size: calc(1.5rem + 5vw);
+    letter-spacing: 2rem;
+    text-align: center;
+}
+.line{
+    display: flex;
+    margin: 25px auto;
+    width: 80vw;
+}
+.img1{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+    padding-left: 10px;
+}
+.text1{
+    color: white;
+    font-size: calc(0.5em + 1vw);
+    margin: 0 10px 10p 20px;
+    flex: 1 1 50%;
+    text-align: justify;
+}
+.img2{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+    padding-right: 10px;
+}
+.text2{
+    color: white;
+    font-size: calc(0.5em + 1vw);
+    margin: 0 10px 10p 20px;
+    flex: 1 1 50%;
+    text-align: justify;
+}
+.img1 img, .img2 img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    display: flex;
+    color: #fff0f5;
+    width: 100%;
+    background-color: #333333;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.footer-nav-item{
+    font-size: calc(0.2em + 1vw);
+}
+.icons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
